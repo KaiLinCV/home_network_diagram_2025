@@ -1,27 +1,16 @@
+Here are a list of icons I found online and used. Below are the credits to the creators of such icons:
+
 <a href="https://www.flaticon.com/free-icons/modem" title="modem icons">Modem icons created by Aficons studio - Flaticon</a>
-
 <a href="https://www.flaticon.com/free-icons/technology" title="technology icons">Technology icons created by meaicon - Flaticon</a>
-
 <a href="https://www.flaticon.com/free-icons/computer" title="computer icons">Computer icons created by Vector Squad - Flaticon</a>
-
 <a href="https://www.flaticon.com/free-icons/monitor" title="monitor icons">Monitor icons created by Hilmy Abiyyu A. - Flaticon</a>
-
 <a href="https://www.flaticon.com/free-icons/nas" title="nas icons">Nas icons created by Freepik - Flaticon</a>
-
 <a href="https://www.flaticon.com/free-icons/network-switch" title="network switch icons">Network switch icons created by Chattapat - Flaticon</a>
-
 <a href="https://www.flaticon.com/free-icons/adapter" title="adapter icons">Adapter icons created by kendis lasman - Flaticon</a>
-
 <a href="https://www.flaticon.com/free-icons/iphone" title="iphone icons">Iphone icons created by Freepik - Flaticon</a>
-
 <a href="https://www.flaticon.com/free-icons/macbook" title="macbook icons">Macbook icons created by Atif Arshad - Flaticon</a>
-
 <a href="https://www.flaticon.com/free-icons/television" title="television icons">Television icons created by Uniconlabs - Flaticon</a>
-
 <a href="https://www.flaticon.com/free-icons/external-hard-drive" title="external hard drive icons">External hard drive icons created by Freepik - Flaticon</a>
-
 <a href="https://www.flaticon.com/free-icons/firewall" title="firewall icons">Firewall icons created by Freepik - Flaticon</a>
-
 <a href="https://www.flaticon.com/free-icons/ps4" title="ps4 icons">Ps4 icons created by magnemizer - Flaticon</a>
-
 <a href="https://www.flaticon.com/free-icons/stereo" title="stereo icons">Stereo icons created by juicy_fish - Flaticon</a>
