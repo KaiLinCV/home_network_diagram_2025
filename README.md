@@ -6,13 +6,13 @@ This diagram outlines my current home network and workstation setup. My goal is 
 
 ## 🛜 Network Overview
 
-My home network consists of both wired and wireless components. The network is managed through an ASUS Wi-Fi router with firewall enabled. The Asus router receives its uplink from a TP-Link Ethernet Gigabit Media Converter (ISP-provided), which is connected to a fiber network.
+My home network consists of both wired and wireless components. The network is managed through an ASUS Wi-Fi router with firewall enabled. The Asus router receives its uplink from a TP-Link Ethernet Gigabit Media Converter (ISP-provided), which is connected to a fiber network. A secondary D-Link Wi-Fi Router is configured and segmented for home lab use, enhancing security and enabling testing in an isolated environment.
 
 ### 🔗 Wired Infrastructure
 - **PC 1 – Windows 11 Pro**  
   Primary admin workstation for daily operations, system configuration, and running Linux VMs (e.g., Ubuntu Server, CentOS 9) for testing.
 - **PC 2 – Windows 10 Home (Dual Boot Linux)**  
-  Used for Linux practice, OS deployment testing, and backup system management.
+  Connected to the secondary router (D-Link), used as a lab machine for Linux testing, OS configuration, and cross-segment communication experiments.
 - **Synology DS224+ NAS**  
   Configured for file backup, data redundancy, and centralized storage management using SMB/AFP protocols.
 
@@ -21,7 +21,7 @@ My home network consists of both wired and wireless components. The network is m
   Manages keyboard, mouse, and dual-display setup between both PCs.
   Using the KVM switch allows me to switch between PCs while I practice and test my home lab environment. 
 - **USB Hub, External HDD (Seagate)**  
-  For expanded I/O to support backup operations and connectivity with additional IoT or USB-powered devices.
+  For expanded I/O to support backup operations and file organizations.
 
 ### 📡 Wireless Devices 
 - **MacBook Air, iPhone**  
@@ -29,31 +29,15 @@ My home network consists of both wired and wireless components. The network is m
 - **Smart TV, Speaker, PS4**  
   Consumer devices connected to the network for daily use. While they are not part of the lab environment, they can be referenced for basic network visibility, segmentation, or bandwidth management if needed.
 
-## 🧵 Cable & Media Legend
-The diagram uses visual indicators for clarity:
-- 🟢 **Fiber Cable** – ISP uplink
-- 🟤 **Cat 6 Ethernet** – Wired LAN
-- ⚫ **HDMI / DisplayPort** – Video signal
-- 🔵 **USB A / Micro B** – Peripheral connection
-- ▫️ **Wi-Fi** – Wireless network
-
 ## 🔐 Network Services & Security
-- **Firewall Enabled** – ASUS router configured for SPI/NAT protection
+- **ASUS Router (Primary)** – Configured with SPI/NAT firewall and DHCP enabled
+- **D-Link Router (Secondary)** – Lab-isolated with its own firewall
 - **DHCP Server** – Internal IP distribution
 - **Static IP Mapping** – Reserved IP for NAS and lab VMs
 - **VM Testing** – Linux VMs launched via VirtualBox for patch testing, automation scripts, and basic network segmentation trials
-
 ---
 
-### ✅ Key System Administrator Skills Demonstrated
-- Small network topology design and documentation
-- Router and firewall configuration
-- OS deployment and dual boot setup
-- Shared resource access and storage centralization (NAS)
-- KVM switch and peripheral management
-- Cross-platform device integration (Windows, macOS, Linux)
-- Basic virtualization and lab automation workflows
+### Conclusion
 
----
+My goal for setting up this network is to practice core system administration skills. This includes network design with segmented routers, cross-platform system provisioning, firewall and DHCP configuration on consumer-grade hardware, shared resource management using a NAS and KVM switch, and peripheral integration. The environment supports lab testing through isolated network segments and VM deployment, enabling patch testing, basic service hosting (e.g., SMB), and system hardening. These configurations help me better understand networking fundamentals and expand my knowledge by simulating real-world administrative responsibilities in a secure and organized environment.
 
-This hands-on environment not only supports personal projects, but also simulates real-world sysadmin scenarios in a structured and maintainable way.
