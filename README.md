@@ -1,14 +1,16 @@
-# 🏠 Home Network Diagram – May 2025
+📘 [English](README.md) | 📙 [中文](README_zh.md)
+
+# 🏠 Home Network Diagram – June 2025
 
 ![NetworkDiagram](./img/NetworkDiagram.png)
 
 This diagram outlines my current home network and workstation setup. My goal is to simulate a small office/home office (SOHO) environment and create a home lab environment for testing, monitoring, and managing various system administration tasks.
 
-## 🛜 Network Overview
+## 🧑‍💻 Network Overview
 
 My home network consists of both wired and wireless components. The network is managed through an ASUS Wi-Fi router with firewall enabled. The Asus router receives its uplink from a TP-Link Ethernet Gigabit Media Converter (ISP-provided), which is connected to a fiber network. A secondary D-Link Wi-Fi Router is configured and segmented for home lab use, enhancing security and enabling testing in an isolated environment.
 
-### 🔗 Wired Infrastructure
+### 🔌 Wired Infrastructure
 - **PC 1 – Windows 11 Pro**  
   Primary admin workstation for daily operations, system configuration, and running Linux VMs (e.g., Ubuntu Server, CentOS 9) for testing.
 - **PC 2 – Windows 10 Home (Dual Boot Linux)**  
@@ -23,7 +25,7 @@ My home network consists of both wired and wireless components. The network is m
 - **USB Hub, External HDD (Seagate)**  
   For expanded I/O to support backup operations and file organizations.
 
-### 📡 Wireless Devices 
+### 🛜 Wireless Devices 
 - **MacBook Air, iPhone**  
   Primarily used as personal devices, but available for occasional testing of connectivity, VPN access, and remote file syncing across non-Windows platforms.
 - **Smart TV, Speaker, PS4**  
